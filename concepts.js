@@ -869,6 +869,962 @@ window.CONCEPTS = {
         ]
       }
     ]
+  },
+
+  "abu-bakr": {
+    slug: "abu-bakr",
+    title_en: "Abū Bakr al-Ṣiddīq",
+    title_ar: "أبو بكر الصديق",
+    tagline_en: "First of the Rightly-Guided Caliphs (r. 632–634)",
+    tagline_ar: "أول الخلفاء الراشدين (١١–١٣هـ / ٦٣٢–٦٣٤م)",
+    aliases: ["أبو بكر الصديق", "أبو بكر", "عبد الله بن أبي قحافة", "الصديق"],
+    sections: [
+      {
+        title_en: "1. Nomenclature, Etymology & Translation",
+        title_ar: "١. الاسم والاشتقاق والتعريب",
+        en: [
+          { b: "Name & Titulature", t: "ʿAbd Allāh b. Abī Quḥāfa; kunya Abū Bakr; the laqab <i>al-Ṣiddīq</i> (“the Truthful / the Attester”) (al-Ṭabarī, 10th c.; EI², “Abū Bakr”)." },
+          { b: "Etymology", t: "<i>al-Ṣiddīq</i> from ṣ-d-q (“truthfulness”), traditionally for his immediate attestation of the Prophet’s Night Journey. Best rendering: أبو بكر الصديق." }
+        ],
+        ar: [
+          { b: "الاسم والألقاب", t: "عبد الله بن أبي قحافة؛ كنيته أبو بكر؛ ولقبُه <i>الصدّيق</i> لتصديقه (al-Ṭabarī؛ EI²)." },
+          { b: "الاشتقاق", t: "«الصدّيق» من (ص-د-ق)؛ لتصديقه بالإسراء كما اشتُهر. وأفضل صياغة: أبو بكر الصديق." }
+        ]
+      },
+      {
+        title_en: "2. Definition, Showcase & Disambiguation",
+        title_ar: "٢. الحد والتمييز",
+        en: [
+          { b: "Showcase", t: "The closest Companion and first of the Rāshidūn caliphs (r. 11–13/632–634); he held the community together after the Prophet’s death, fought the Ridda wars, and launched the conquests (Madelung, 1997)." },
+          { b: "The Boundary (al-ḥadd)", t: "The historical caliph and his short reign — not the Rāshidūn institution as a whole." },
+          { b: "Contrast", t: "", items: [
+            "(1) vs ʿUmar — his successor, under whom the great expansion unfolded.",
+            "(2) vs ʿAlī — the fourth caliph; the Sunnī–Shīʿī divergence over succession begins here (Madelung, 1997).",
+            "(3) vs the Prophet — he is khalīfat rasūl Allāh (“successor”), never a prophet."
+          ] }
+        ],
+        ar: [
+          { b: "العرض", t: "أقربُ الصحابة وأولُ الخلفاء الراشدين (حكم ١١–١٣هـ)؛ حفِظ وحدةَ الأمة بعد النبي ﷺ، وخاض حروبَ الردّة، وبدأ الفتوح (Madelung, 1997)." },
+          { b: "الحدّ", t: "هو الخليفةُ التاريخي وعهدُه القصير — لا مؤسسةُ الخلافة الراشدة كلها." },
+          { b: "التمييز", t: "", items: [
+            "(١) عن عمر — خليفتِه الذي اتّسعت في عهده الفتوح.",
+            "(٢) عن علي — الخليفةِ الرابع؛ ومن هنا يبدأ الافتراقُ السنّي–الشيعي في الخلافة (Madelung, 1997).",
+            "(٣) عن النبي ﷺ — فهو خليفةُ رسول الله لا نبيّ."
+          ] }
+        ]
+      },
+      {
+        title_en: "3. Subject Matter",
+        title_ar: "٣. الموضوع",
+        en: [ { b: "The Subject", t: "His caliphate, the consolidation of the umma after the Prophet, the Ridda wars, and the first collection of the Qurʾān (undertaken in his reign, per tradition)." } ],
+        ar: [ { b: "الموضوع", t: "خلافتُه، وتثبيتُ الأمة بعد النبي ﷺ، وحروبُ الردّة، وأولُ جمعٍ للقرآن في عهده (كما في الأثر)." } ]
+      },
+      {
+        title_en: "4. Founder & History",
+        title_ar: "٤. الواضع والتاريخ",
+        en: [
+          { b: "Earliest witnesses", t: "al-Ṭabarī’s history and Ibn Saʿd’s Ṭabaqāt are the backbone (Madelung, 1997)." },
+          { b: "Timeline", t: "", items: [
+            "(1) c. 573 — born in Mecca.",
+            "(2) among the earliest converts; the Prophet’s companion in the cave on the Hijra (Q 9:40).",
+            "(3) 11/632 — elected at the Saqīfa after the Prophet’s death.",
+            "(4) 632–633 — the Ridda wars (against Musaylima and others).",
+            "(5) conquests begin into Iraq and Syria.",
+            "(6) 13/634 — dies, having nominated ʿUmar."
+          ] }
+        ],
+        ar: [
+          { b: "أوائل من دوّنوه", t: "تاريخُ الطبري وطبقاتُ ابن سعد هما العمود (Madelung, 1997)." },
+          { b: "لمحة زمنية", t: "", items: [
+            "(١) نحو ٥٧٣م — وُلد بمكة.",
+            "(٢) من أوائل المسلمين؛ وصاحبُ النبي ﷺ في الغار يوم الهجرة (التوبة ٤٠).",
+            "(٣) ١١هـ — بويع في السقيفة بعد وفاة النبي ﷺ.",
+            "(٤) ١١–١٢هـ — حروبُ الردّة (مسيلمة وغيره).",
+            "(٥) بدءُ الفتوح نحو العراق والشام.",
+            "(٦) ١٣هـ — تُوفّي بعد أن عهد إلى عمر."
+          ] }
+        ]
+      },
+      {
+        title_en: "5. Taxonomy & Relations",
+        title_ar: "٥. النسبة والارتباط",
+        en: [
+          { b: "Category & Subcategory", t: "The Rightly-Guided (Rāshidūn) caliphs → the first of them." },
+          { b: "Proportion & Standing", t: "In Sunnī doctrine, the best of the umma after the prophets." },
+          { b: "Relation to previous concepts", t: "Foundational to the Rāshidūn era; contrast with the later dynastic caliphs in this library (<b>ʿAbd al-Malik</b>, <b>al-Maʾmūn</b>) — consultative/elective vs hereditary legitimacy." }
+        ],
+        ar: [
+          { b: "التصنيف", t: "الخلفاء الراشدون ← أولُهم." },
+          { b: "النسبة والمكانة", t: "في الاعتقاد السنّي: خيرُ الأمة بعد الأنبياء." },
+          { b: "الارتباط بالمفاهيم السابقة", t: "أساسٌ للعصر الراشدي؛ وقارِنه بالخلفاء الوراثيين في هذه المكتبة (<b>عبد الملك</b> و<b>المأمون</b>) — شرعيةُ الشورى مقابل الوراثة." }
+        ]
+      },
+      {
+        title_en: "6. Sources & Derivation",
+        title_ar: "٦. الاستمداد",
+        en: [
+          { b: "Primary", t: "al-Ṭabarī, Tārīkh; Ibn Saʿd, al-Ṭabaqāt al-Kubrā; Ibn Hishām, al-Sīra." },
+          { b: "Modern", t: "Madelung (1997); EI²." }
+        ],
+        ar: [
+          { b: "الأولية", t: "الطبري، التاريخ؛ ابن سعد، الطبقات الكبرى؛ ابن هشام، السيرة." },
+          { b: "الحديثة", t: "Madelung (1997)؛ دائرة المعارف الإسلامية." }
+        ]
+      },
+      {
+        title_en: "7. Core Issues & Branches",
+        title_ar: "٧. المسائل والفروع",
+        en: [ { b: "Principal debates", t: "", items: [
+          "(1) The Saqīfa succession and its long sectarian afterlife (Madelung, 1997).",
+          "(2) The nature and justification of the Ridda wars.",
+          "(3) The tradition of the first Qurʾān collection under his reign."
+        ] } ],
+        ar: [ { b: "أبرز المسائل", t: "", items: [
+          "(١) سقيفةُ بني ساعدة وأثرُها الطائفيُّ الممتد (Madelung, 1997).",
+          "(٢) طبيعةُ حروب الردّة ومسوّغُها.",
+          "(٣) أثرُ جمع القرآن في عهده."
+        ] } ]
+      },
+      {
+        title_en: "8. The Fruit & Merit",
+        title_ar: "٨. الثمرة والفضل",
+        en: [
+          { b: "The Fruit (al-thamara)", t: "A model of consolidation and orderly succession in crisis." },
+          { b: "The Virtue (al-faḍl)", t: "Foremost rank among the Companions in Sunnī doctrine." }
+        ],
+        ar: [
+          { b: "الثمرة", t: "نموذجٌ في تثبيت الأمر وانتقال السلطة وقت الأزمات." },
+          { b: "الفضل", t: "أعلى الصحابة منزلةً في الاعتقاد السنّي." }
+        ]
+      },
+      {
+        title_en: "9. The Legal & Ethical Ruling",
+        title_ar: "٩. حكم الشارع",
+        en: [
+          { b: "Islamic Ruling", t: "Studying the lives of the Rightly-Guided is recommended (and parts touch creed); the detailed scholarship is a communal duty (farḍ kifāya) — under the Qurʾānic call to take counsel from history (Q 12:111) and the Maqṣad of preserving religion." },
+          { b: "Threshold & Prioritization", t: "After the individually obligatory creed and fiqh; pursue for ʿibra and unity, avoiding sectarian polemic." }
+        ],
+        ar: [
+          { b: "الحكم الشرعي", t: "دراسةُ سِيَر الراشدين مستحبّةٌ (وبعضُها يمسّ الاعتقاد)؛ والتفصيلُ العلميُّ فرضُ كفاية — في ضوء أمر القرآن بالاعتبار (يوسف ١١١)، ومقصدِ حفظ الدين." },
+          { b: "الحدّ والأولويات", t: "بعد فرض العين من الاعتقاد والفقه؛ ويُطلب للعبرة والوحدة، مع تجنّب الجدل الطائفي." }
+        ]
+      },
+      {
+        title_en: "10. Landmark References",
+        title_ar: "١٠. المراجع الأساسية",
+        en: [
+          { b: "al-Ṭabarī — Tārīkh al-Rusul wa’l-Mulūk (10th c.)", t: "Principal annalistic source for the early caliphate." },
+          { b: "Ibn Saʿd — al-Ṭabaqāt al-Kubrā (9th c.)", t: "Foundational biographical compendium of the Companions." },
+          { b: "W. Madelung — The Succession to Muhammad (Cambridge UP, 1997)", t: "Landmark critical study of the succession crisis." },
+          { b: "al-Suyūṭī — Tārīkh al-Khulafāʾ (15th c.)", t: "Classic concise history of the caliphs." },
+          { b: "EI² — “Abū Bakr”", t: "Authoritative encyclopedic synthesis." }
+        ],
+        ar: [
+          { b: "الطبري — تاريخ الرسل والملوك (ق٤هـ)", t: "المصدرُ الحوليُّ الأساس لصدر الخلافة." },
+          { b: "ابن سعد — الطبقات الكبرى (ق٣هـ)", t: "مجموعُ تراجمِ الصحابة المؤسِّس." },
+          { b: "W. Madelung — The Succession to Muhammad (1997)", t: "دراسةٌ نقديةٌ مرجعيةٌ لأزمة الخلافة." },
+          { b: "السيوطي — تاريخ الخلفاء (ق٩هـ)", t: "تاريخٌ كلاسيكيٌّ موجزٌ للخلفاء." },
+          { b: "دائرة المعارف الإسلامية — «أبو بكر»", t: "تركيبٌ موسوعيٌّ موثوق." }
+        ]
+      }
+    ]
+  },
+
+  "ali-ibn-abi-talib": {
+    slug: "ali-ibn-abi-talib",
+    title_en: "ʿAlī b. Abī Ṭālib",
+    title_ar: "علي بن أبي طالب",
+    tagline_en: "Fourth Rightly-Guided Caliph; first Shīʿī Imam (r. 656–661)",
+    tagline_ar: "رابع الخلفاء الراشدين وأول أئمة الشيعة (٣٥–٤٠هـ / ٦٥٦–٦٦١م)",
+    aliases: ["علي بن أبي طالب", "الإمام علي", "علي بن ابي طالب", "أبو تراب"],
+    sections: [
+      {
+        title_en: "1. Nomenclature, Etymology & Translation",
+        title_ar: "١. الاسم والاشتقاق والتعريب",
+        en: [
+          { b: "Name & Titulature", t: "ʿAlī b. Abī Ṭālib, cousin and son-in-law of the Prophet; kunya Abū al-Ḥasan, also Abū Turāb (EI², “ʿAlī b. Abī Ṭālib”)." },
+          { b: "Etymology", t: "<i>ʿAlī</i> from ʿ-l-w (“to be high, exalted”). Best rendering: علي بن أبي طالب." }
+        ],
+        ar: [
+          { b: "الاسم والألقاب", t: "علي بن أبي طالب، ابنُ عمّ النبي ﷺ وصِهرُه؛ كنيتُه أبو الحسن، ويُكنّى أبا تراب (EI²)." },
+          { b: "الاشتقاق", t: "«علي» من (ع-ل-و): العلوّ والرفعة. وأفضل صياغة: علي بن أبي طالب." }
+        ]
+      },
+      {
+        title_en: "2. Definition, Showcase & Disambiguation",
+        title_ar: "٢. الحد والتمييز",
+        en: [
+          { b: "Showcase", t: "The fourth Rāshidūn caliph (35–40/656–661) and a central figure of the first civil war; for the Shīʿa, the first divinely-designated Imam (Madelung, 1997)." },
+          { b: "The Boundary (al-ḥadd)", t: "The historical caliph and Companion — distinct from the elaborated theological persona of later sectarian doctrine." },
+          { b: "Contrast", t: "", items: [
+            "(1) vs the first three caliphs — the succession dispute.",
+            "(2) vs Muʿāwiya — his rival at Ṣiffīn (657), whose victory births the Umayyad caliphate.",
+            "(3) the Sunnī ʿAlī (fourth Rightly-Guided caliph) vs the Shīʿī ʿAlī (designated Imam)."
+          ] }
+        ],
+        ar: [
+          { b: "العرض", t: "رابعُ الخلفاء الراشدين (٣٥–٤٠هـ) وقطبُ الفتنة الأولى؛ وهو عند الشيعة أولُ الأئمة المنصوص عليهم (Madelung, 1997)." },
+          { b: "الحدّ", t: "هو الخليفةُ والصحابيُّ التاريخي — لا الصورةُ العقديةُ المُوسَّعةُ في المذاهب اللاحقة." },
+          { b: "التمييز", t: "", items: [
+            "(١) عن الخلفاء الثلاثة قبله — مسألةُ الخلافة.",
+            "(٢) عن معاوية — خصمِه في صفّين (٣٧هـ)، الذي وَلَدَ انتصارُه الخلافةَ الأموية.",
+            "(٣) عليٌّ السنّي (الخليفةُ الرابع) مقابل عليٍّ الشيعي (الإمامُ المنصوص)."
+          ] }
+        ]
+      },
+      {
+        title_en: "3. Subject Matter",
+        title_ar: "٣. الموضوع",
+        en: [ { b: "The Subject", t: "His caliphate, the first fitna (the Camel, Ṣiffīn, Nahrawān), and his foundational status across Sunnī, Shīʿī, and Sufi traditions." } ],
+        ar: [ { b: "الموضوع", t: "خلافتُه، والفتنةُ الأولى (الجمل وصفّين والنهروان)، ومكانتُه المؤسِّسةُ في التقاليد السنّية والشيعية والصوفية." } ]
+      },
+      {
+        title_en: "4. Founder & History",
+        title_ar: "٤. الواضع والتاريخ",
+        en: [
+          { b: "Earliest witnesses", t: "al-Ṭabarī for the events; Nahj al-Balāgha (compiled by al-Sharīf al-Raḍī, 11th c.) for the attributed orations (Madelung, 1997)." },
+          { b: "Timeline", t: "", items: [
+            "(1) c. 600 — born in Mecca.",
+            "(2) 35/656 — accession amid the murder of ʿUthmān.",
+            "(3) 656 — the Battle of the Camel against ʿĀʾisha, Ṭalḥa, al-Zubayr.",
+            "(4) 657 — Ṣiffīn against Muʿāwiya; the arbitration.",
+            "(5) 658 — Nahrawān against the seceding Khārijites.",
+            "(6) 40/661 — assassinated by a Khārijite at Kūfa."
+          ] }
+        ],
+        ar: [
+          { b: "أوائل من دوّنوه", t: "الطبري للأحداث؛ ونهجُ البلاغة (جمعَه الشريف الرضي، ق٥هـ) للخُطب المنسوبة (Madelung, 1997)." },
+          { b: "لمحة زمنية", t: "", items: [
+            "(١) نحو ٦٠٠م — وُلد بمكة.",
+            "(٢) ٣٥هـ — بويع إثر مقتل عثمان.",
+            "(٣) ٣٦هـ — معركةُ الجمل ضد عائشة وطلحة والزبير.",
+            "(٤) ٣٧هـ — صفّين ضد معاوية؛ والتحكيم.",
+            "(٥) ٣٨هـ — النهروان ضد الخوارج المنشقّين.",
+            "(٦) ٤٠هـ — اغتاله خارجيٌّ بالكوفة."
+          ] }
+        ]
+      },
+      {
+        title_en: "5. Taxonomy & Relations",
+        title_ar: "٥. النسبة والارتباط",
+        en: [
+          { b: "Category & Subcategory", t: "The Rightly-Guided caliphs → the fourth; and progenitor of the Shīʿī imams." },
+          { b: "Proportion & Standing", t: "Pivotal to Islamic political and theological identity across schools." },
+          { b: "Relation to previous concepts", t: "His conflict with Muʿāwiya births the Umayyad order — cf. <b>ʿAbd al-Malik</b> in this library; contrast <b>Abū Bakr</b>’s consensual accession with the contested one here." }
+        ],
+        ar: [
+          { b: "التصنيف", t: "الخلفاء الراشدون ← الرابع؛ وجدُّ أئمة الشيعة." },
+          { b: "النسبة والمكانة", t: "محوريٌّ في الهوية السياسية والعقدية الإسلامية عبر المذاهب." },
+          { b: "الارتباط بالمفاهيم السابقة", t: "نزاعُه مع معاوية يُولِّد الدولةَ الأموية — قارِن <b>عبد الملك</b> في هذه المكتبة؛ وقابِل بيعةَ <b>أبي بكر</b> التوافقية بالبيعة المتنازَع عليها هنا." }
+        ]
+      },
+      {
+        title_en: "6. Sources & Derivation",
+        title_ar: "٦. الاستمداد",
+        en: [
+          { b: "Primary", t: "al-Ṭabarī, Tārīkh; al-Sharīf al-Raḍī, Nahj al-Balāgha; Ibn Saʿd, al-Ṭabaqāt." },
+          { b: "Modern", t: "Madelung (1997); EI²." }
+        ],
+        ar: [
+          { b: "الأولية", t: "الطبري، التاريخ؛ الشريف الرضي، نهج البلاغة؛ ابن سعد، الطبقات." },
+          { b: "الحديثة", t: "Madelung (1997)؛ دائرة المعارف الإسلامية." }
+        ]
+      },
+      {
+        title_en: "7. Core Issues & Branches",
+        title_ar: "٧. المسائل والفروع",
+        en: [ { b: "Principal debates", t: "", items: [
+          "(1) Legitimacy and the succession dispute (Madelung, 1997).",
+          "(2) The authenticity and attribution of Nahj al-Balāgha.",
+          "(3) The arbitration at Ṣiffīn and the emergence of the Khārijites."
+        ] } ],
+        ar: [ { b: "أبرز المسائل", t: "", items: [
+          "(١) الشرعيةُ ومسألةُ الخلافة (Madelung, 1997).",
+          "(٢) صحّةُ نهج البلاغة ونسبتُه.",
+          "(٣) تحكيمُ صفّين ونشأةُ الخوارج."
+        ] } ]
+      },
+      {
+        title_en: "8. The Fruit & Merit",
+        title_ar: "٨. الثمرة والفضل",
+        en: [
+          { b: "The Fruit (al-thamara)", t: "A study of legitimacy, civil strife, eloquence, and justice." },
+          { b: "The Virtue (al-faḍl)", t: "Among the foremost Companions and a central devotional figure." }
+        ],
+        ar: [
+          { b: "الثمرة", t: "دراسةٌ في الشرعية والفتنة والبلاغة والعدل." },
+          { b: "الفضل", t: "من أفاضل الصحابة وشخصيةٌ محوريةٌ في الوجدان." }
+        ]
+      },
+      {
+        title_en: "9. The Legal & Ethical Ruling",
+        title_ar: "٩. حكم الشارع",
+        en: [
+          { b: "Islamic Ruling", t: "Studying his life is recommended for ʿibra; the scholarship is a communal duty (farḍ kifāya) — under the Qurʾānic call to learn from the past (Q 3:137) and the Maqṣad of preserving religion and unity." },
+          { b: "Threshold & Prioritization", t: "After the individually obligatory; approach the fitna soberly, prioritizing unity over sectarian polemic." }
+        ],
+        ar: [
+          { b: "الحكم الشرعي", t: "دراسةُ سيرته مستحبّةٌ للعبرة؛ والعلمُ بها فرضُ كفاية — في ضوء أمر القرآن بالاعتبار (آل عمران ١٣٧)، ومقصدِ حفظ الدين والوحدة." },
+          { b: "الحدّ والأولويات", t: "بعد فرض العين؛ وتُتناول الفتنةُ برصانةٍ تُقدِّم الوحدةَ على الجدل الطائفي." }
+        ]
+      },
+      {
+        title_en: "10. Landmark References",
+        title_ar: "١٠. المراجع الأساسية",
+        en: [
+          { b: "al-Ṭabarī — Tārīkh al-Rusul wa’l-Mulūk (10th c.)", t: "Principal source for the first civil war." },
+          { b: "al-Sharīf al-Raḍī — Nahj al-Balāgha (11th c.)", t: "Canonical compilation of orations and letters attributed to ʿAlī." },
+          { b: "W. Madelung — The Succession to Muhammad (Cambridge UP, 1997)", t: "Landmark reassessment sympathetic to ʿAlī’s claim." },
+          { b: "Ibn Saʿd — al-Ṭabaqāt al-Kubrā (9th c.)", t: "Early biographical material." },
+          { b: "EI² — “ʿAlī b. Abī Ṭālib”", t: "Authoritative encyclopedic synthesis." }
+        ],
+        ar: [
+          { b: "الطبري — تاريخ الرسل والملوك (ق٤هـ)", t: "المصدرُ الأساس للفتنة الأولى." },
+          { b: "الشريف الرضي — نهج البلاغة (ق٥هـ)", t: "الجمعُ المعتمدُ للخُطب والرسائل المنسوبة لعلي." },
+          { b: "W. Madelung — The Succession to Muhammad (1997)", t: "إعادةُ تقييمٍ مرجعيةٌ متعاطفةٌ مع حقّ علي." },
+          { b: "ابن سعد — الطبقات الكبرى (ق٣هـ)", t: "مادةٌ ترجميةٌ مبكّرة." },
+          { b: "دائرة المعارف الإسلامية — «علي بن أبي طالب»", t: "تركيبٌ موسوعيٌّ موثوق." }
+        ]
+      }
+    ]
+  },
+
+  "khalid-ibn-al-walid": {
+    slug: "khalid-ibn-al-walid",
+    title_en: "Khālid b. al-Walīd",
+    title_ar: "خالد بن الوليد",
+    tagline_en: "“The Drawn Sword of God”; general of the conquests (d. 642)",
+    tagline_ar: "سيف الله المسلول؛ قائد الفتوح (ت ٢١هـ / ٦٤٢م)",
+    aliases: ["خالد بن الوليد", "سيف الله المسلول", "سيف الله"],
+    sections: [
+      {
+        title_en: "1. Nomenclature, Etymology & Translation",
+        title_ar: "١. الاسم والاشتقاق والتعريب",
+        en: [
+          { b: "Name & Titulature", t: "Khālid b. al-Walīd al-Makhzūmī; honorific <i>Sayf Allāh al-Maslūl</i> (“the Drawn Sword of God”) (EI², “Khālid b. al-Walīd”)." },
+          { b: "Etymology", t: "<i>Khālid</i> from kh-l-d (“to endure”). Best rendering: خالد بن الوليد." }
+        ],
+        ar: [
+          { b: "الاسم والألقاب", t: "خالد بن الوليد المخزومي؛ ولقبُه <i>سيف الله المسلول</i> (EI²)." },
+          { b: "الاشتقاق", t: "«خالد» من (خ-ل-د): الدوام. وأفضل صياغة: خالد بن الوليد." }
+        ]
+      },
+      {
+        title_en: "2. Definition, Showcase & Disambiguation",
+        title_ar: "٢. الحد والتمييز",
+        en: [
+          { b: "Showcase", t: "The foremost general of early Islam: commander in the Ridda wars and the conquests of Iraq and Syria, and victor at the Yarmūk (636) (Donner, 1981)." },
+          { b: "The Boundary (al-ḥadd)", t: "The military commander — not a caliph or political ruler." },
+          { b: "Contrast", t: "", items: [
+            "(1) vs Abū ʿUbayda — his co-commander, given overall command in Syria.",
+            "(2) vs Saʿd b. Abī Waqqāṣ — commander of the Iraq front at al-Qādisiyya.",
+            "(3) vs Heraclius — the Byzantine emperor he defeated."
+          ] }
+        ],
+        ar: [
+          { b: "العرض", t: "أبرزُ قادة صدر الإسلام: قائدٌ في حروب الردّة وفتوح العراق والشام، وصاحبُ النصر في اليرموك (١٥هـ) (Donner, 1981)." },
+          { b: "الحدّ", t: "هو القائدُ العسكري — لا خليفةً ولا حاكماً سياسياً." },
+          { b: "التمييز", t: "", items: [
+            "(١) عن أبي عبيدة — رفيقِه في القيادة الذي وَلِيَ إمرةَ الشام.",
+            "(٢) عن سعد بن أبي وقّاص — قائدِ جبهة العراق في القادسية.",
+            "(٣) عن هرقل — إمبراطورِ الروم الذي هزمه."
+          ] }
+        ]
+      },
+      {
+        title_en: "3. Subject Matter",
+        title_ar: "٣. الموضوع",
+        en: [ { b: "The Subject", t: "His campaigns and generalship in the Ridda wars and the great conquests (al-futūḥ)." } ],
+        ar: [ { b: "الموضوع", t: "حملاتُه وقيادتُه في حروب الردّة والفتوح الكبرى." } ]
+      },
+      {
+        title_en: "4. Founder & History",
+        title_ar: "٤. الواضع والتاريخ",
+        en: [
+          { b: "Earliest witnesses", t: "al-Ṭabarī and al-Balādhurī (Futūḥ al-Buldān); the futūḥ-narratives must be read critically (Donner, 1981)." },
+          { b: "Timeline", t: "", items: [
+            "(1) Pre-Islam — a Qurashī cavalry commander (he routed the Muslims’ flank at Uḥud).",
+            "(2) c. 629 — converts to Islam.",
+            "(3) 632–633 — Ridda wars; defeats Musaylima at al-Yamāma.",
+            "(4) the Iraq campaign, then the famous desert march to Syria.",
+            "(5) 15/636 — the decisive Battle of the Yarmūk.",
+            "(6) dismissed from command by ʿUmar; dies at Homs, 21/642."
+          ] }
+        ],
+        ar: [
+          { b: "أوائل من دوّنوه", t: "الطبري والبلاذري (فتوح البلدان)؛ وتُقرأ روايات الفتوح بنقد (Donner, 1981)." },
+          { b: "لمحة زمنية", t: "", items: [
+            "(١) قبل الإسلام — فارسٌ قرشيٌّ قائد (هزم جناحَ المسلمين في أُحُد).",
+            "(٢) نحو ٧هـ — أسلم.",
+            "(٣) ١١–١٢هـ — حروبُ الردّة؛ وهزيمةُ مسيلمة باليمامة.",
+            "(٤) حملةُ العراق، ثم المسيرُ الصحراويُّ الشهير إلى الشام.",
+            "(٥) ١٥هـ — معركةُ اليرموك الفاصلة.",
+            "(٦) عَزَله عمر عن الإمرة؛ وتُوفّي بحمص ٢١هـ."
+          ] }
+        ]
+      },
+      {
+        title_en: "5. Taxonomy & Relations",
+        title_ar: "٥. النسبة والارتباط",
+        en: [
+          { b: "Category & Subcategory", t: "Commanders of the conquests → the paragon general." },
+          { b: "Proportion & Standing", t: "An emblem of Islamic military genius and mobility." },
+          { b: "Relation to previous concepts", t: "His Yarmūk (and the parallel Iraq victories) opened the lands later ruled by the Umayyads and Abbasids in this library (<b>ʿAbd al-Malik</b>, <b>al-Maʾmūn</b>); served under the caliph <b>Abū Bakr</b>." }
+        ],
+        ar: [
+          { b: "التصنيف", t: "قادةُ الفتوح ← القائدُ النموذج." },
+          { b: "النسبة والمكانة", t: "رمزٌ للعبقرية العسكرية الإسلامية والمناورة." },
+          { b: "الارتباط بالمفاهيم السابقة", t: "فتحت اليرموكُ (وانتصاراتُ العراق) البلادَ التي حكمها لاحقاً الأمويون والعباسيون في هذه المكتبة (<b>عبد الملك</b>، <b>المأمون</b>)؛ وخدم في عهد الخليفة <b>أبي بكر</b>." }
+        ]
+      },
+      {
+        title_en: "6. Sources & Derivation",
+        title_ar: "٦. الاستمداد",
+        en: [
+          { b: "Primary", t: "al-Ṭabarī, Tārīkh; al-Balādhurī, Futūḥ al-Buldān." },
+          { b: "Modern", t: "Donner (1981); EI²." }
+        ],
+        ar: [
+          { b: "الأولية", t: "الطبري، التاريخ؛ البلاذري، فتوح البلدان." },
+          { b: "الحديثة", t: "Donner (1981)؛ دائرة المعارف الإسلامية." }
+        ]
+      },
+      {
+        title_en: "7. Core Issues & Branches",
+        title_ar: "٧. المسائل والفروع",
+        en: [ { b: "Principal debates", t: "", items: [
+          "(1) The reliability of the conquest narratives and their later embellishment (Donner, 1981).",
+          "(2) The reasons for ʿUmar’s dismissal of him.",
+          "(3) The historicity and route of the desert march to Syria."
+        ] } ],
+        ar: [ { b: "أبرز المسائل", t: "", items: [
+          "(١) موثوقيةُ روايات الفتوح وتحسينُها لاحقاً (Donner, 1981).",
+          "(٢) أسبابُ عزل عمر له.",
+          "(٣) تاريخيةُ المسير الصحراوي إلى الشام ومسارُه."
+        ] } ]
+      },
+      {
+        title_en: "8. The Fruit & Merit",
+        title_ar: "٨. الثمرة والفضل",
+        en: [
+          { b: "The Fruit (al-thamara)", t: "A classic study in operational mobility, surprise, and morale." },
+          { b: "The Virtue (al-faḍl)", t: "Celebrated as Sayf Allāh, “the Sword of God.”" }
+        ],
+        ar: [
+          { b: "الثمرة", t: "دراسةٌ كلاسيكيةٌ في الحركة العملياتية والمباغتة والمعنويات." },
+          { b: "الفضل", t: "يُمجَّد بوصفه «سيف الله»." }
+        ]
+      },
+      {
+        title_en: "9. The Legal & Ethical Ruling",
+        title_ar: "٩. حكم الشارع",
+        en: [
+          { b: "Islamic Ruling", t: "Studying the maghāzī and conquests is recommended for ʿibra; its scholarship is a communal duty (farḍ kifāya) — under the Qurʾānic call to traverse the earth and observe (Q 3:137)." },
+          { b: "Threshold & Prioritization", t: "After the individually obligatory; pursue for sober lesson, not glorification of violence." }
+        ],
+        ar: [
+          { b: "الحكم الشرعي", t: "دراسةُ المغازي والفتوح مستحبّةٌ للعبرة؛ وعلمُها فرضُ كفاية — في ضوء أمر القرآن بالسير والنظر (آل عمران ١٣٧)." },
+          { b: "الحدّ والأولويات", t: "بعد فرض العين؛ وتُطلب للعبرة الرصينة لا لتمجيد العنف." }
+        ]
+      },
+      {
+        title_en: "10. Landmark References",
+        title_ar: "١٠. المراجع الأساسية",
+        en: [
+          { b: "al-Ṭabarī — Tārīkh al-Rusul wa’l-Mulūk (10th c.)", t: "Principal narrative of the conquests." },
+          { b: "al-Balādhurī — Futūḥ al-Buldān (9th c.)", t: "Classic dedicated account of the conquests." },
+          { b: "Fred M. Donner — The Early Islamic Conquests (Princeton UP, 1981)", t: "Landmark modern analysis of how and why the conquests succeeded." },
+          { b: "EI² — “Khālid b. al-Walīd”", t: "Authoritative encyclopedic synthesis." }
+        ],
+        ar: [
+          { b: "الطبري — تاريخ الرسل والملوك (ق٤هـ)", t: "السردُ الأساس للفتوح." },
+          { b: "البلاذري — فتوح البلدان (ق٣هـ)", t: "أشهرُ مصنَّفٍ مفردٍ في الفتوح." },
+          { b: "Fred M. Donner — The Early Islamic Conquests (1981)", t: "التحليلُ الحديثُ المرجعيُّ لأسباب نجاح الفتوح." },
+          { b: "دائرة المعارف الإسلامية — «خالد بن الوليد»", t: "تركيبٌ موسوعيٌّ موثوق." }
+        ]
+      }
+    ]
+  },
+
+  "abd-al-malik": {
+    slug: "abd-al-malik",
+    title_en: "ʿAbd al-Malik b. Marwān",
+    title_ar: "عبد الملك بن مروان",
+    tagline_en: "Umayyad caliph; “second founder” of the state (r. 685–705)",
+    tagline_ar: "الخليفة الأموي و«المؤسِّس الثاني» للدولة (٦٥–٨٦هـ / ٦٨٥–٧٠٥م)",
+    aliases: ["عبد الملك بن مروان", "عبد الملك"],
+    sections: [
+      {
+        title_en: "1. Nomenclature, Etymology & Translation",
+        title_ar: "١. الاسم والاشتقاق والتعريب",
+        en: [
+          { b: "Name & Titulature", t: "ʿAbd al-Malik b. Marwān b. al-Ḥakam, fifth Umayyad caliph (Robinson, 2005)." },
+          { b: "Etymology", t: "<i>ʿAbd al-Malik</i> = “servant of the Sovereign (al-Malik, a divine name).” Best rendering: عبد الملك بن مروان." }
+        ],
+        ar: [
+          { b: "الاسم والألقاب", t: "عبد الملك بن مروان بن الحكم، خامسُ خلفاء بني أمية (Robinson, 2005)." },
+          { b: "الاشتقاق", t: "«عبد الملك» = عبدُ المَلِك (اسمٌ من أسماء الله). وأفضل صياغة: عبد الملك بن مروان." }
+        ]
+      },
+      {
+        title_en: "2. Definition, Showcase & Disambiguation",
+        title_ar: "٢. الحد والتمييز",
+        en: [
+          { b: "Showcase", t: "The caliph who reconsolidated the Umayyad state after the second fitna and refashioned it: Arabizing the administration (dīwān), reforming the coinage, and building the Dome of the Rock (72/691–692) (Robinson, 2005)." },
+          { b: "The Boundary (al-ḥadd)", t: "The caliph and his reforms — not the Umayyad dynasty as a whole." },
+          { b: "Contrast", t: "", items: [
+            "(1) vs Muʿāwiya — the dynasty’s founder.",
+            "(2) vs ʿAbd Allāh b. al-Zubayr — the rival counter-caliph in Mecca.",
+            "(3) vs the Andalusī Umayyads (<b>ʿAbd al-Raḥmān I/III</b> in this library) — the same house’s western branch."
+          ] }
+        ],
+        ar: [
+          { b: "العرض", t: "الخليفةُ الذي أعاد توحيد الدولة الأموية بعد الفتنة الثانية وأعاد صياغتها: تعريبُ الدواوين، وإصلاحُ النقد، وبناءُ قبة الصخرة (٧٢هـ) (Robinson, 2005)." },
+          { b: "الحدّ", t: "هو الخليفةُ وإصلاحاتُه — لا الدولةُ الأموية كلها." },
+          { b: "التمييز", t: "", items: [
+            "(١) عن معاوية — مؤسِّسِ الدولة.",
+            "(٢) عن عبد الله بن الزبير — الخليفةِ المنافس بمكة.",
+            "(٣) عن أمويي الأندلس (<b>عبد الرحمن الداخل/الناصر</b> في هذه المكتبة) — فرعِ البيت نفسِه في الغرب."
+          ] }
+        ]
+      },
+      {
+        title_en: "3. Subject Matter",
+        title_ar: "٣. الموضوع",
+        en: [ { b: "The Subject", t: "His reign, the resolution of the second fitna, and the administrative-religious formation of the Umayyad imperial state." } ],
+        ar: [ { b: "الموضوع", t: "عهدُه، وإنهاءُ الفتنة الثانية، والتكوينُ الإداريُّ الدينيُّ للدولة الأموية الإمبراطورية." } ]
+      },
+      {
+        title_en: "4. Founder & History",
+        title_ar: "٤. الواضع والتاريخ",
+        en: [
+          { b: "Earliest witnesses", t: "al-Ṭabarī and al-Balādhurī; synthesised by Robinson (2005) and Kennedy (1986)." },
+          { b: "Timeline", t: "", items: [
+            "(1) 646 — born.",
+            "(2) 65/685 — accedes amid civil war.",
+            "(3) 73/692 — al-Ḥajjāj defeats Ibn al-Zubayr; the state is reunified.",
+            "(4) c. 696–697 — Arabization of the dīwān and the first purely Islamic gold dinar.",
+            "(5) 72/691–692 — the Dome of the Rock is built.",
+            "(6) 86/705 — dies, succeeded by his son al-Walīd I."
+          ] }
+        ],
+        ar: [
+          { b: "أوائل من دوّنوه", t: "الطبري والبلاذري؛ وصاغه حديثاً Robinson (2005) وKennedy (1986)." },
+          { b: "لمحة زمنية", t: "", items: [
+            "(١) ٢٦هـ — وُلد.",
+            "(٢) ٦٥هـ — وَلِيَ وسط الحرب الأهلية.",
+            "(٣) ٧٣هـ — الحجّاج يهزم ابنَ الزبير؛ فتتوحّد الدولة.",
+            "(٤) نحو ٧٦–٧٧هـ — تعريبُ الديوان وأولُ دينارٍ إسلاميٍّ خالص.",
+            "(٥) ٧٢هـ — بناءُ قبة الصخرة.",
+            "(٦) ٨٦هـ — تُوفّي، وخلفه ابنُه الوليد الأول."
+          ] }
+        ]
+      },
+      {
+        title_en: "5. Taxonomy & Relations",
+        title_ar: "٥. النسبة والارتباط",
+        en: [
+          { b: "Category & Subcategory", t: "Umayyad caliphs → the “second founder.”" },
+          { b: "Proportion & Standing", t: "Architect of the Islamic imperial state’s distinctive identity — language, coinage, and monument." },
+          { b: "Relation to previous concepts", t: "His house’s western survivor founded al-Andalus (<b>ʿAbd al-Raḥmān I</b>); contrast the Abbasid refoundation under <b>Hārūn</b>/<b>al-Maʾmūn</b>; the Umayyad order he secured arose from <b>ʿAlī</b>’s defeat by Muʿāwiya." }
+        ],
+        ar: [
+          { b: "التصنيف", t: "الخلفاء الأمويون ← «المؤسِّس الثاني»." },
+          { b: "النسبة والمكانة", t: "مهندسُ هويةِ الدولة الإسلامية الإمبراطورية المميِّزة — اللغةُ والنقدُ والعمارة." },
+          { b: "الارتباط بالمفاهيم السابقة", t: "ناجي بيتِه في الغرب أسّس الأندلس (<b>عبد الرحمن الداخل</b>)؛ وقابِل التأسيسَ العباسي عند <b>هارون</b>/<b>المأمون</b>؛ والدولةُ الأمويةُ التي ثبّتها نشأت من هزيمة <b>علي</b> أمام معاوية." }
+        ]
+      },
+      {
+        title_en: "6. Sources & Derivation",
+        title_ar: "٦. الاستمداد",
+        en: [
+          { b: "Primary", t: "al-Ṭabarī, Tārīkh; al-Balādhurī, Ansāb al-Ashrāf." },
+          { b: "Modern", t: "Robinson (2005); Kennedy (1986)." }
+        ],
+        ar: [
+          { b: "الأولية", t: "الطبري، التاريخ؛ البلاذري، أنساب الأشراف." },
+          { b: "الحديثة", t: "Robinson (2005)؛ Kennedy (1986)." }
+        ]
+      },
+      {
+        title_en: "7. Core Issues & Branches",
+        title_ar: "٧. المسائل والفروع",
+        en: [ { b: "Principal debates", t: "", items: [
+          "(1) The significance of Arabization and coinage reform as state-formation (Robinson, 2005).",
+          "(2) The meaning and purpose of the Dome of the Rock.",
+          "(3) The role of his viceroy al-Ḥajjāj b. Yūsuf."
+        ] } ],
+        ar: [ { b: "أبرز المسائل", t: "", items: [
+          "(١) دلالةُ التعريب وإصلاح النقد بوصفها بناءَ دولة (Robinson, 2005).",
+          "(٢) معنى قبة الصخرة والغرضُ منها.",
+          "(٣) دورُ نائبِه الحجّاج بن يوسف."
+        ] } ]
+      },
+      {
+        title_en: "8. The Fruit & Merit",
+        title_ar: "٨. الثمرة والفضل",
+        en: [
+          { b: "The Fruit (al-thamara)", t: "A case study in state-building and symbolic politics." },
+          { b: "The Virtue (al-faḍl)", t: "Pivotal to the formation of Islamic imperial institutions." }
+        ],
+        ar: [
+          { b: "الثمرة", t: "دراسةُ حالةٍ في بناء الدولة والسياسة الرمزية." },
+          { b: "الفضل", t: "محوريٌّ في تكوين المؤسسات الإسلامية الإمبراطورية." }
+        ]
+      },
+      {
+        title_en: "9. The Legal & Ethical Ruling",
+        title_ar: "٩. حكم الشارع",
+        en: [
+          { b: "Islamic Ruling", t: "Studying his statecraft is permissible and recommended for ʿibra; its scholarship is a communal duty (farḍ kifāya) — under the Maqṣad of preserving knowledge and the welfare of the community." },
+          { b: "Threshold & Prioritization", t: "After the individually obligatory; pursue it for lessons in governance and institution-building." }
+        ],
+        ar: [
+          { b: "الحكم الشرعي", t: "دراسةُ سياسته مباحةٌ ومستحبّةٌ للعبرة؛ وعلمُها فرضُ كفاية — في ضوء مقصدِ حفظ العلم ومصلحةِ الأمة." },
+          { b: "الحدّ والأولويات", t: "بعد فرض العين؛ وتُطلب لدروس الحكم وبناء المؤسسات." }
+        ]
+      },
+      {
+        title_en: "10. Landmark References",
+        title_ar: "١٠. المراجع الأساسية",
+        en: [
+          { b: "al-Ṭabarī — Tārīkh al-Rusul wa’l-Mulūk (10th c.)", t: "Principal source for the second fitna and his reign." },
+          { b: "al-Balādhurī — Ansāb al-Ashrāf (9th c.)", t: "Major prosopographical history of the Umayyad elite." },
+          { b: "Chase F. Robinson — ʿAbd al-Malik (Oneworld, 2005)", t: "The standard accessible scholarly biography." },
+          { b: "Hugh Kennedy — The Prophet and the Age of the Caliphates (1986)", t: "Standard survey placing his reforms in context." },
+          { b: "EI² — “ʿAbd al-Malik b. Marwān”", t: "Authoritative encyclopedic synthesis." }
+        ],
+        ar: [
+          { b: "الطبري — تاريخ الرسل والملوك (ق٤هـ)", t: "المصدرُ الأساس للفتنة الثانية وعهدِه." },
+          { b: "البلاذري — أنساب الأشراف (ق٣هـ)", t: "تاريخٌ أنسابيٌّ كبيرٌ لنخبة بني أمية." },
+          { b: "Chase F. Robinson — ʿAbd al-Malik (Oneworld, 2005)", t: "السيرةُ العلميةُ الميسَّرةُ المرجعية." },
+          { b: "Hugh Kennedy — The Prophet and the Age of the Caliphates (1986)", t: "مسحٌ مرجعيٌّ يضع إصلاحاتِه في سياقها." },
+          { b: "دائرة المعارف الإسلامية — «عبد الملك بن مروان»", t: "تركيبٌ موسوعيٌّ موثوق." }
+        ]
+      }
+    ]
+  },
+
+  "al-mamun": {
+    slug: "al-mamun",
+    title_en: "Al-Maʾmūn",
+    title_ar: "المأمون",
+    tagline_en: "Abbasid caliph of the translation movement & the Miḥna (r. 813–833)",
+    tagline_ar: "خليفة حركة الترجمة والمحنة (١٩٨–٢١٨هـ / ٨١٣–٨٣٣م)",
+    aliases: ["المأمون", "عبد الله المأمون", "المامون"],
+    sections: [
+      {
+        title_en: "1. Nomenclature, Etymology & Translation",
+        title_ar: "١. الاسم والاشتقاق والتعريب",
+        en: [
+          { b: "Name & Titulature", t: "ʿAbd Allāh al-Maʾmūn b. Hārūn al-Rashīd; the laqab <i>al-Maʾmūn</i> (“the Trusted, the Trustworthy”) (Cooperson, 2005)." },
+          { b: "Etymology", t: "<i>al-Maʾmūn</i> from a-m-n (“trust, security”). Best rendering: المأمون." }
+        ],
+        ar: [
+          { b: "الاسم والألقاب", t: "عبد الله المأمون بن هارون الرشيد؛ ولقبُه <i>المأمون</i> (المؤتمَن) (Cooperson, 2005)." },
+          { b: "الاشتقاق", t: "«المأمون» من (أ-م-ن): الأمنُ والائتمان. وأفضل صياغة: المأمون." }
+        ]
+      },
+      {
+        title_en: "2. Definition, Showcase & Disambiguation",
+        title_ar: "٢. الحد والتمييز",
+        en: [
+          { b: "Showcase", t: "The Abbasid caliph who won the civil war against his brother al-Amīn, championed the Greek-Arabic translation movement and the flourishing of the Bayt al-Ḥikma, and imposed the Miḥna over the doctrine of the created Qurʾān (Cooperson, 2005; Gutas, 1998)." },
+          { b: "The Boundary (al-ḥadd)", t: "The historical caliph and his policies." },
+          { b: "Contrast", t: "", items: [
+            "(1) vs his father <b>Hārūn al-Rashīd</b> (this library) — political zenith vs intellectual caliph.",
+            "(2) vs his brother al-Amīn — the rival in the civil war.",
+            "(3) vs al-Mutawakkil — who later reversed the Miḥna."
+          ] }
+        ],
+        ar: [
+          { b: "العرض", t: "الخليفةُ العباسي الذي انتصر في الحرب الأهلية على أخيه الأمين، ورعى حركةَ الترجمة اليونانية–العربية وازدهارَ بيت الحكمة، وفرض المحنةَ بخلق القرآن (Cooperson, 2005؛ Gutas, 1998)." },
+          { b: "الحدّ", t: "هو الخليفةُ التاريخيُّ وسياساتُه." },
+          { b: "التمييز", t: "", items: [
+            "(١) عن أبيه <b>هارون الرشيد</b> (في هذه المكتبة) — الذروةُ السياسية مقابل الخليفة المثقّف.",
+            "(٢) عن أخيه الأمين — منافسِه في الحرب الأهلية.",
+            "(٣) عن المتوكّل — الذي نقض المحنةَ لاحقاً."
+          ] }
+        ]
+      },
+      {
+        title_en: "3. Subject Matter",
+        title_ar: "٣. الموضوع",
+        en: [ { b: "The Subject", t: "His reign, the Abbasid civil war, the patronage of translation and “the sciences of the ancients,” and the Miḥna." } ],
+        ar: [ { b: "الموضوع", t: "عهدُه، والحربُ الأهليةُ العباسية، ورعايةُ الترجمة و«علوم الأوائل»، والمحنة." } ]
+      },
+      {
+        title_en: "4. Founder & History",
+        title_ar: "٤. الواضع والتاريخ",
+        en: [
+          { b: "Earliest witnesses", t: "al-Ṭabarī for the events; the translation movement analysed by Gutas (1998)." },
+          { b: "Timeline", t: "", items: [
+            "(1) 786 — born.",
+            "(2) governor of Khurāsān; civil war with al-Amīn, 811–813.",
+            "(3) 813 — al-Amīn killed; al-Maʾmūn caliph, initially based in Marv.",
+            "(4) 819 — enters Baghdad.",
+            "(5) patronage of translation, astronomy, and the geodetic measurements.",
+            "(6) 827 — adopts the created-Qurʾān doctrine; 833 — institutes the Miḥna.",
+            "(7) 833 — dies on the Byzantine frontier."
+          ] }
+        ],
+        ar: [
+          { b: "أوائل من دوّنوه", t: "الطبري للأحداث؛ وحركةُ الترجمة حلّلها Gutas (1998)." },
+          { b: "لمحة زمنية", t: "", items: [
+            "(١) ١٧٠هـ — وُلد.",
+            "(٢) واليَ خراسان؛ والحربُ الأهلية مع الأمين ١٩٥–١٩٨هـ.",
+            "(٣) ١٩٨هـ — مقتلُ الأمين؛ والمأمونُ خليفةً، ومقرُّه أولاً مرو.",
+            "(٤) ٢٠٤هـ — دخولُ بغداد.",
+            "(٥) رعايةُ الترجمة والفلك والقياسات الأرضية.",
+            "(٦) ٢١٢هـ — تبنّي القول بخلق القرآن؛ و٢١٨هـ — فرضُ المحنة.",
+            "(٧) ٢١٨هـ — تُوفّي على ثغر الروم."
+          ] }
+        ]
+      },
+      {
+        title_en: "5. Taxonomy & Relations",
+        title_ar: "٥. النسبة والارتباط",
+        en: [
+          { b: "Category & Subcategory", t: "Abbasid caliphs → the intellectual caliph." },
+          { b: "Proportion & Standing", t: "Emblem of the Greco-Arabic translation movement and the height of Abbasid science." },
+          { b: "Relation to previous concepts", t: "Son of <b>Hārūn al-Rashīd</b> (this library); the Miḥna is a landmark in caliph–ʿulamāʾ relations, a counterpoint to the consultative ethos of the Rāshidūn (<b>Abū Bakr</b>, <b>ʿAlī</b>)." }
+        ],
+        ar: [
+          { b: "التصنيف", t: "الخلفاء العباسيون ← الخليفةُ المثقّف." },
+          { b: "النسبة والمكانة", t: "رمزُ حركةِ الترجمة اليونانية–العربية وذروةِ العلم العباسي." },
+          { b: "الارتباط بالمفاهيم السابقة", t: "ابنُ <b>هارون الرشيد</b> (في هذه المكتبة)؛ والمحنةُ معلَمٌ في علاقة الخليفة بالعلماء، تقابل روحَ الشورى عند الراشدين (<b>أبو بكر</b>، <b>علي</b>)." }
+        ]
+      },
+      {
+        title_en: "6. Sources & Derivation",
+        title_ar: "٦. الاستمداد",
+        en: [
+          { b: "Primary", t: "al-Ṭabarī, Tārīkh; al-Masʿūdī, Murūj al-Dhahab; Ibn al-Nadīm, al-Fihrist." },
+          { b: "Modern", t: "Cooperson (2005); Gutas (1998); El-Hibri (1999)." }
+        ],
+        ar: [
+          { b: "الأولية", t: "الطبري، التاريخ؛ المسعودي، مروج الذهب؛ ابن النديم، الفهرست." },
+          { b: "الحديثة", t: "Cooperson (2005)؛ Gutas (1998)؛ El-Hibri (1999)." }
+        ]
+      },
+      {
+        title_en: "7. Core Issues & Branches",
+        title_ar: "٧. المسائل والفروع",
+        en: [ { b: "Principal debates", t: "", items: [
+          "(1) The motives, mechanics, and ultimate failure of the Miḥna (Cooperson, 2005).",
+          "(2) The scope and drivers of the translation movement (Gutas, 1998).",
+          "(3) The civil war’s legacy of provincial autonomy."
+        ] } ],
+        ar: [ { b: "أبرز المسائل", t: "", items: [
+          "(١) دوافعُ المحنة وآليّتُها وإخفاقُها النهائي (Cooperson, 2005).",
+          "(٢) نطاقُ حركة الترجمة ومحرّكاتُها (Gutas, 1998).",
+          "(٣) إرثُ الحرب الأهلية في استقلال الأقاليم."
+        ] } ]
+      },
+      {
+        title_en: "8. The Fruit & Merit",
+        title_ar: "٨. الثمرة والفضل",
+        en: [
+          { b: "The Fruit (al-thamara)", t: "A study of knowledge-patronage and, in the Miḥna, the perils of state coercion in doctrine." },
+          { b: "The Virtue (al-faḍl)", t: "Associated with a peak of Islamic science and learning." }
+        ],
+        ar: [
+          { b: "الثمرة", t: "دراسةٌ في رعاية العلم، وفي المحنة عبرةٌ في مخاطر إكراه الدولة على العقيدة." },
+          { b: "الفضل", t: "يُقرَن بذروةٍ من ذُرى العلم الإسلامي." }
+        ]
+      },
+      {
+        title_en: "9. The Legal & Ethical Ruling",
+        title_ar: "٩. حكم الشارع",
+        en: [
+          { b: "Islamic Ruling", t: "Studying his era is recommended for ʿibra; note the Miḥna as a cautionary case against coercion in creed. Its scholarship is a communal duty (farḍ kifāya) — under the Maqṣad of preserving religion and intellect." },
+          { b: "Threshold & Prioritization", t: "After the individually obligatory; draw principled lessons rather than partisan ones." }
+        ],
+        ar: [
+          { b: "الحكم الشرعي", t: "دراسةُ عصره مستحبّةٌ للعبرة؛ والمحنةُ عبرةٌ محذِّرةٌ من الإكراه في العقيدة. وعلمُها فرضُ كفاية — في ضوء مقصدِ حفظ الدين والعقل." },
+          { b: "الحدّ والأولويات", t: "بعد فرض العين؛ وتُستخلَص دروسٌ مبدئيةٌ لا حزبية." }
+        ]
+      },
+      {
+        title_en: "10. Landmark References",
+        title_ar: "١٠. المراجع الأساسية",
+        en: [
+          { b: "al-Ṭabarī — Tārīkh al-Rusul wa’l-Mulūk (10th c.)", t: "Principal source for the civil war and reign." },
+          { b: "Michael Cooperson — Al-Maʾmun (Oneworld, 2005)", t: "The standard accessible scholarly biography." },
+          { b: "Dimitri Gutas — Greek Thought, Arabic Culture (Routledge, 1998)", t: "Landmark study of the Graeco-Arabic translation movement." },
+          { b: "Tayeb El-Hibri — Reinterpreting Islamic Historiography (Cambridge UP, 1999)", t: "On the Abbasid caliphal narratives." },
+          { b: "EI² — “al-Maʾmūn”", t: "Authoritative encyclopedic synthesis." }
+        ],
+        ar: [
+          { b: "الطبري — تاريخ الرسل والملوك (ق٤هـ)", t: "المصدرُ الأساس للحرب الأهلية والعهد." },
+          { b: "Michael Cooperson — Al-Maʾmun (Oneworld, 2005)", t: "السيرةُ العلميةُ الميسَّرةُ المرجعية." },
+          { b: "Dimitri Gutas — Greek Thought, Arabic Culture (1998)", t: "دراسةٌ مرجعيةٌ لحركة الترجمة اليونانية–العربية." },
+          { b: "Tayeb El-Hibri — Reinterpreting Islamic Historiography (1999)", t: "عن سرديات الخلافة العباسية." },
+          { b: "دائرة المعارف الإسلامية — «المأمون»", t: "تركيبٌ موسوعيٌّ موثوق." }
+        ]
+      }
+    ]
+  },
+
+  "mehmed-ii": {
+    slug: "mehmed-ii",
+    title_en: "Mehmed II the Conqueror (Meḥmed al-Fātiḥ)",
+    title_ar: "محمد الفاتح",
+    tagline_en: "Ottoman sultan; conqueror of Constantinople (1432–1481)",
+    tagline_ar: "السلطان العثماني فاتح القسطنطينية (٨٣٥–٨٨٦هـ / ١٤٣٢–١٤٨١م)",
+    aliases: ["محمد الفاتح", "محمد الثاني", "السلطان محمد الفاتح", "فتح القسطنطينية"],
+    sections: [
+      {
+        title_en: "1. Nomenclature, Etymology & Translation",
+        title_ar: "١. الاسم والاشتقاق والتعريب",
+        en: [
+          { b: "Name & Titulature", t: "Meḥmed II; the sobriquet <i>al-Fātiḥ</i> / Fātiḥ Sulṭān Meḥmed (“the Conqueror”) (Babinger, 1978)." },
+          { b: "Etymology", t: "Meḥmed is the Turkish form of Muḥammad; <i>al-Fātiḥ</i> from f-t-ḥ (“to open, conquer”). Best rendering: محمد الفاتح (السلطان محمد الثاني)." }
+        ],
+        ar: [
+          { b: "الاسم والألقاب", t: "محمد الثاني؛ ولقبُه <i>الفاتح</i> (فاتح سلطان محمد) (Babinger, 1978)." },
+          { b: "الاشتقاق", t: "«محمد» (بالتركية مِحمِد)؛ و«الفاتح» من (ف-ت-ح). وأفضل صياغة: محمد الفاتح (السلطان محمد الثاني)." }
+        ]
+      },
+      {
+        title_en: "2. Definition, Showcase & Disambiguation",
+        title_ar: "٢. الحد والتمييز",
+        en: [
+          { b: "Showcase", t: "The Ottoman sultan (r. 1444–46, 1451–81) who conquered Constantinople in 1453, ending the Byzantine Empire and making the city (Istanbul) the Ottoman capital (Babinger, 1978; Runciman, 1965)." },
+          { b: "The Boundary (al-ḥadd)", t: "The historical sultan and his conquests — not the Ottoman Empire as a whole." },
+          { b: "Contrast", t: "", items: [
+            "(1) vs his father Murād II.",
+            "(2) vs the later sultans Selīm I and Süleymān — who brought the Arab heartlands under Ottoman rule.",
+            "(3) vs Constantine XI — the last Byzantine emperor."
+          ] }
+        ],
+        ar: [
+          { b: "العرض", t: "السلطانُ العثماني (حكم ١٤٤٤–٤٦ ثم ١٤٥١–٨١م) الذي فتح القسطنطينية سنة ١٤٥٣م، فأنهى الإمبراطورية البيزنطية وجعل المدينة (إسطنبول) عاصمةً للعثمانيين (Babinger, 1978؛ Runciman, 1965)." },
+          { b: "الحدّ", t: "هو السلطانُ التاريخيُّ وفتوحُه — لا الدولةُ العثمانية كلها." },
+          { b: "التمييز", t: "", items: [
+            "(١) عن أبيه مراد الثاني.",
+            "(٢) عن السلطانين اللاحقين سليم الأول وسليمان — اللذين أدخلا قلبَ البلاد العربية تحت الحكم العثماني.",
+            "(٣) عن قسطنطين الحادي عشر — آخرِ أباطرة بيزنطة."
+          ] }
+        ]
+      },
+      {
+        title_en: "3. Subject Matter",
+        title_ar: "٣. الموضوع",
+        en: [ { b: "The Subject", t: "His reign, the conquest of Constantinople, and the transformation of the Ottoman beylik into a centralized empire." } ],
+        ar: [ { b: "الموضوع", t: "عهدُه، وفتحُ القسطنطينية، وتحويلُ الإمارة العثمانية إلى إمبراطوريةٍ مركزية." } ]
+      },
+      {
+        title_en: "4. Founder & History",
+        title_ar: "٤. الواضع والتاريخ",
+        en: [
+          { b: "Earliest witnesses", t: "Ottoman chronicles (Tursun Beg) and Byzantine eyewitnesses (Kritoboulos, Doukas) (Babinger, 1978)." },
+          { b: "Timeline", t: "", items: [
+            "(1) 1432 — born.",
+            "(2) 1444–46 — a first, brief reign.",
+            "(3) 1451 — second accession.",
+            "(4) builds the fortress Rumeli Hisarı on the Bosphorus.",
+            "(5) 29 May 1453 — the fall of Constantinople after a siege using massive bombards.",
+            "(6) conquests in the Balkans, Anatolia, and the Crimea.",
+            "(7) 1481 — dies."
+          ] }
+        ],
+        ar: [
+          { b: "أوائل من دوّنوه", t: "الحولياتُ العثمانية (طورسون بك) وشهودٌ بيزنطيون (كريتوبولوس، دوكاس) (Babinger, 1978)." },
+          { b: "لمحة زمنية", t: "", items: [
+            "(١) ١٤٣٢م — وُلد.",
+            "(٢) ١٤٤٤–٤٦م — حكمٌ أولُ قصير.",
+            "(٣) ١٤٥١م — تولّيه الثاني.",
+            "(٤) بناءُ قلعة روملي حصار على البوسفور.",
+            "(٥) ٢٩ مايو ١٤٥٣م — سقوطُ القسطنطينية بعد حصارٍ بمدافعَ ضخمة.",
+            "(٦) فتوحٌ في البلقان والأناضول والقرم.",
+            "(٧) ١٤٨١م — تُوفّي."
+          ] }
+        ]
+      },
+      {
+        title_en: "5. Taxonomy & Relations",
+        title_ar: "٥. النسبة والارتباط",
+        en: [
+          { b: "Category & Subcategory", t: "Ottoman sultans → the imperial founder-conqueror." },
+          { b: "Proportion & Standing", t: "A hinge of late-medieval/early-modern history and the fulfilment of a long-anticipated conquest in Islamic tradition." },
+          { b: "Relation to previous concepts", t: "His line’s later sultans bring the Arab lands under Ottoman rule, connecting to this library’s scope; contrast the earlier defensive triumphs of <b>Saladin</b> (anti-Crusader) and <b>ʿAyn Jālūt</b> (anti-Mongol) with this offensive, empire-making conquest." }
+        ],
+        ar: [
+          { b: "التصنيف", t: "السلاطين العثمانيون ← المؤسِّسُ الفاتح." },
+          { b: "النسبة والمكانة", t: "مفصلٌ بين أواخر العصر الوسيط ومطلع الحديث، وتحقيقٌ لفتحٍ طال انتظارُه في التراث الإسلامي." },
+          { b: "الارتباط بالمفاهيم السابقة", t: "سلاطينُ سلالته اللاحقون أدخلوا البلادَ العربية تحت الحكم العثماني، فاتّصلوا بنطاق هذه المكتبة؛ وقابِل انتصاراتِ الدفاع عند <b>صلاح الدين</b> (ضد الصليبيين) و<b>عين جالوت</b> (ضد المغول) بهذا الفتح الهجوميِّ المؤسِّس للإمبراطورية." }
+        ]
+      },
+      {
+        title_en: "6. Sources & Derivation",
+        title_ar: "٦. الاستمداد",
+        en: [
+          { b: "Primary", t: "Kritoboulos, History of Mehmed the Conqueror; Tursun Beg; Doukas." },
+          { b: "Modern", t: "Babinger (1978); İnalcık (1973); Runciman (1965)." }
+        ],
+        ar: [
+          { b: "الأولية", t: "كريتوبولوس، تاريخ محمد الفاتح؛ طورسون بك؛ دوكاس." },
+          { b: "الحديثة", t: "Babinger (1978)؛ İnalcık (1973)؛ Runciman (1965)." }
+        ]
+      },
+      {
+        title_en: "7. Core Issues & Branches",
+        title_ar: "٧. المسائل والفروع",
+        en: [ { b: "Principal debates", t: "", items: [
+          "(1) The military innovations of the siege (the great bombards) and the conquest’s symbolic weight (Runciman, 1965).",
+          "(2) Mehmed’s composite self-image — Islamic, Roman, and imperial (Babinger, 1978).",
+          "(3) The treatment of the conquered and the millet arrangements."
+        ] } ],
+        ar: [ { b: "أبرز المسائل", t: "", items: [
+          "(١) ابتكاراتُ الحصار العسكرية (المدافعُ الضخمة) وثقلُ الفتح الرمزي (Runciman, 1965).",
+          "(٢) صورةُ محمدٍ المركّبة عن نفسه — إسلاميةٌ ورومانيةٌ وإمبراطورية (Babinger, 1978).",
+          "(٣) معاملةُ المغلوبين ونظامُ المِلَل."
+        ] } ]
+      },
+      {
+        title_en: "8. The Fruit & Merit",
+        title_ar: "٨. الثمرة والفضل",
+        en: [
+          { b: "The Fruit (al-thamara)", t: "A study of siege warfare, statecraft, and imperial ideology." },
+          { b: "The Virtue (al-faḍl)", t: "Celebrated in Islamic memory as al-Fātiḥ, fulfilling a prophesied conquest." }
+        ],
+        ar: [
+          { b: "الثمرة", t: "دراسةٌ في حرب الحصار والحكم والأيديولوجيا الإمبراطورية." },
+          { b: "الفضل", t: "يُمجَّد في الوجدان الإسلامي بوصفه «الفاتح» محقِّقاً لفتحٍ مُبشَّرٍ به." }
+        ]
+      },
+      {
+        title_en: "9. The Legal & Ethical Ruling",
+        title_ar: "٩. حكم الشارع",
+        en: [
+          { b: "Islamic Ruling", t: "Studying such conquests and history is permissible and recommended for ʿibra and morale; its scholarship is a communal duty (farḍ kifāya) — under the Qurʾānic call to consider the fate of nations (Q 12:111)." },
+          { b: "Threshold & Prioritization", t: "After the individually obligatory; pursue it for sober historical lesson, not triumphalist myth." }
+        ],
+        ar: [
+          { b: "الحكم الشرعي", t: "دراسةُ هذه الفتوح والتاريخ مباحةٌ ومستحبّةٌ للعبرة والأثر المعنوي؛ وعلمُها فرضُ كفاية — في ضوء أمر القرآن بالاعتبار بعواقب الأمم (يوسف ١١١)." },
+          { b: "الحدّ والأولويات", t: "بعد فرض العين؛ وتُطلب للعبرة التاريخية الرصينة لا للأسطورة الانتصارية." }
+        ]
+      },
+      {
+        title_en: "10. Landmark References",
+        title_ar: "١٠. المراجع الأساسية",
+        en: [
+          { b: "Kritoboulos — History of Mehmed the Conqueror (15th c.)", t: "Contemporary Greek eyewitness account sympathetic to Mehmed." },
+          { b: "Franz Babinger — Mehmed the Conqueror and His Time (Princeton UP, 1978)", t: "The landmark modern biography." },
+          { b: "Steven Runciman — The Fall of Constantinople 1453 (Cambridge UP, 1965)", t: "Classic narrative of the siege." },
+          { b: "Halil İnalcık — The Ottoman Empire: The Classical Age (1973)", t: "Standard scholarly framework for the era." },
+          { b: "EI² — “Meḥemmed II”", t: "Authoritative encyclopedic synthesis." }
+        ],
+        ar: [
+          { b: "كريتوبولوس — تاريخ محمد الفاتح (ق٩هـ/١٥م)", t: "روايةٌ يونانيةٌ معاصرةٌ شاهدةٌ متعاطفةٌ مع محمد." },
+          { b: "Franz Babinger — Mehmed the Conqueror and His Time (1978)", t: "السيرةُ الحديثةُ المرجعية." },
+          { b: "Steven Runciman — The Fall of Constantinople 1453 (1965)", t: "السردُ الكلاسيكيُّ للحصار." },
+          { b: "Halil İnalcık — The Ottoman Empire: The Classical Age (1973)", t: "الإطارُ العلميُّ المرجعيُّ للعصر." },
+          { b: "دائرة المعارف الإسلامية — «محمد الثاني»", t: "تركيبٌ موسوعيٌّ موثوق." }
+        ]
+      }
+    ]
   }
 
 };
