@@ -1,0 +1,22 @@
+# backups & intermediates
+*.bak
+*.bak2
+*.before-normalize
+generated_questions.js
+
+# OCR pipeline & build tooling
+build_search_index.sh
+ocr_*.sh
+ocr_logs/
+ocr_output/
+filter_and_merge.js
+generate_questions.js
+merge_wrongs.js
+normalize_options.js
+
+# separate animation project (not part of the quiz)
+al-nasir-animation.html
+al-nasir-production-package.md
+
+# editor/agent
+.claude/

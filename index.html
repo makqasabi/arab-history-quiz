@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مسابقة تاريخ الأمة العربية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-pattern"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">ا</div>
+      <div>
+        <h1>مسابقة تاريخ الأمة العربية</h1>
+        <p class="subtitle">اختبر معلوماتك في تاريخ الأمة من الجاهلية إلى العصر الحديث</p>
+      </div>
+    </div>
+    <nav class="top-nav">
+      <button class="nav-btn" id="navHome">الرئيسية</button>
+      <button class="nav-btn" id="navSearch">🔍 ابحث في الكتاب</button>
+      <button class="nav-btn" id="navStats">الإحصائيات</button>
+      <button class="nav-btn" id="navAbout">عن المسابقة</button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- الشاشة الرئيسية -->
+    <section class="screen home-screen" id="homeScreen">
+      <div class="hero">
+        <h2>اختر مجلد المسابقة</h2>
+        <p>التقسيم يتبع أجزاء الكتاب نفسها — <strong class="hl-gold">٧ مجلدات</strong>، <strong class="hl-gold">٦٤٥ سؤالاً</strong> عالية الجودة (مع شروح للخيارات الخاطئة) موزعة على <strong class="hl-gold">٥ مستويات صعوبة</strong>، جميعها بمصدر وتاريخ، مع <strong class="hl-gold">٦٠٥٢ صفحة قابلة للبحث</strong> من نص الكتاب الكامل.</p>
+        <div class="diff-legend">
+          <span class="diff-badge d1">سهل جداً</span>
+          <span class="diff-badge d2">سهل</span>
+          <span class="diff-badge d3">متوسط</span>
+          <span class="diff-badge d4">صعب</span>
+          <span class="diff-badge d5">صعب جداً</span>
+        </div>
+      </div>
+
+      <div class="categories" id="categories"></div>
+
+      <div class="quick-actions">
+        <button class="btn-primary btn-large" id="startAllBtn">
+          <span class="btn-icon">⚔</span> ابدأ المسابقة الشاملة
+        </button>
+        <button class="btn-ghost btn-large" id="startRandomBtn">
+          <span class="btn-icon">⚂</span> أسئلة عشوائية (١٥ سؤالاً)
+        </button>
+      </div>
+    </section>
+
+    <!-- شاشة الإعدادات قبل البدء -->
+    <section class="screen settings-screen hidden" id="settingsScreen">
+      <button class="back-btn" id="backFromSettings">→ رجوع</button>
+      <h2 id="settingsTitle">إعدادات المسابقة</h2>
+      <div class="settings-grid">
+        <label class="setting-card">
+          <span class="setting-label">عدد الأسئلة</span>
+          <select id="questionCount">
+            <option value="5">٥ أسئلة</option>
+            <option value="10" selected>١٠ أسئلة</option>
+            <option value="15">١٥ سؤالاً</option>
+            <option value="20">٢٠ سؤالاً</option>
+            <option value="all">جميع الأسئلة</option>
+          </select>
+        </label>
+        <label class="setting-card">
+          <span class="setting-label">الوقت لكل سؤال</span>
+          <select id="timePerQuestion">
+            <option value="0">بدون وقت</option>
+            <option value="15">١٥ ثانية</option>
+            <option value="30" selected>٣٠ ثانية</option>
+            <option value="60">دقيقة</option>
+          </select>
+        </label>
+        <label class="setting-card">
+          <span class="setting-label">ترتيب الأسئلة</span>
+          <select id="questionOrder">
+            <option value="random" selected>عشوائي</option>
+            <option value="sequential">حسب الترتيب</option>
+          </select>
+        </label>
+        <label class="setting-card">
+          <span class="setting-label">إظهار الشرح</span>
+          <select id="showExplanation">
+            <option value="yes" selected>نعم بعد كل إجابة</option>
+            <option value="end">في النهاية فقط</option>
+          </select>
+        </label>
+        <label class="setting-card setting-difficulty">
+          <span class="setting-label">مستوى الصعوبة</span>
+          <div class="difficulty-checks" id="difficultyChecks">
+            <label class="diff-chip" data-d="1"><input type="checkbox" value="1" checked><span>سهل جداً</span></label>
+            <label class="diff-chip" data-d="2"><input type="checkbox" value="2" checked><span>سهل</span></label>
+            <label class="diff-chip" data-d="3"><input type="checkbox" value="3" checked><span>متوسط</span></label>
+            <label class="diff-chip" data-d="4"><input type="checkbox" value="4" checked><span>صعب</span></label>
+            <label class="diff-chip" data-d="5"><input type="checkbox" value="5" checked><span>صعب جداً</span></label>
+          </div>
+        </label>
+        <label class="setting-card">
+          <span class="setting-label">مصدر الأسئلة</span>
+          <select id="sourceFilter">
+            <option value="any" selected>الكل (مع وبدون مصدر)</option>
+            <option value="book">من الكتاب فقط</option>
+            <option value="general">عامة فقط</option>
+          </select>
+        </label>
+        <label class="setting-card">
+          <span class="setting-label">وضع اللعب</span>
+          <select id="playMode">
+            <option value="single" selected>لاعب واحد</option>
+            <option value="multi">متسابقون (٢-١٠)</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="players-setup hidden" id="playersSetup">
+        <div class="players-head">
+          <span class="setting-label">عدد المتسابقين</span>
+          <select id="playerCount">
+            <option value="2" selected>٢</option>
+            <option value="3">٣</option>
+            <option value="4">٤</option>
+            <option value="5">٥</option>
+            <option value="6">٦</option>
+            <option value="7">٧</option>
+            <option value="8">٨</option>
+            <option value="9">٩</option>
+            <option value="10">١٠</option>
+          </select>
+        </div>
+        <div class="player-names" id="playerNames"></div>
+        <p class="players-hint">يتناوب المتسابقون على نفس الجهاز؛ يحصل كل لاعب على عدد متساوٍ من الأسئلة بالتناوب، وتُحسب نقاطه من إجاباته الصحيحة.</p>
+      </div>
+
+      <button class="btn-primary btn-large center-btn" id="beginQuizBtn">ابدأ الآن ←</button>
+    </section>
+
+    <!-- شاشة المسابقة -->
+    <section class="screen quiz-screen hidden" id="quizScreen">
+      <div class="quiz-top">
+        <div class="quiz-meta">
+          <span class="badge" id="categoryBadge">—</span>
+          <span class="meta-pill"><span id="qIndex">1</span> / <span id="qTotal">10</span></span>
+          <span class="meta-pill score-pill">النقاط: <strong id="liveScore">0</strong></span>
+        </div>
+        <div class="timer-wrap hidden" id="timerWrap">
+          <div class="timer-ring"><span id="timerText">30</span></div>
+        </div>
+      </div>
+
+      <div class="progress"><div class="progress-fill" id="progressFill"></div></div>
+
+      <div class="turn-banner hidden" id="turnBanner">
+        <span class="turn-label">دور المتسابق</span>
+        <span class="turn-name" id="turnName">—</span>
+        <span class="turn-score" id="turnScore">٠ نقطة</span>
+      </div>
+
+      <article class="question-card">
+        <div class="question-num" id="questionNumber">السؤال ١</div>
+        <h3 class="question-text" id="questionText">—</h3>
+        <div class="options" id="options"></div>
+        <div class="explanation hidden" id="explanationBox">
+          <div class="exp-label">الشرح</div>
+          <p id="explanationText">—</p>
+          <div class="wrongs-box hidden" id="wrongsBox"></div>
+          <div class="exp-meta" id="explanationMeta"></div>
+        </div>
+        <div class="quiz-controls">
+          <button class="btn-ghost" id="skipBtn">تخطي</button>
+          <button class="btn-primary" id="nextBtn" disabled>التالي ←</button>
+        </div>
+      </article>
+    </section>
+
+    <!-- شاشة النتيجة -->
+    <section class="screen result-screen hidden" id="resultScreen">
+      <div class="leaderboard-card hidden" id="leaderboardCard">
+        <div class="result-icon">🏆</div>
+        <h2>لوحة الترتيب النهائية</h2>
+        <p class="result-summary" id="leaderboardSummary">—</p>
+        <ol class="leaderboard" id="leaderboard"></ol>
+        <div class="result-actions">
+          <button class="btn-primary" id="lbRetryBtn">مباراة جديدة</button>
+          <button class="btn-ghost" id="lbHomeBtn">العودة للرئيسية</button>
+        </div>
+      </div>
+
+      <div class="result-card" id="singleResultCard">
+        <div class="result-icon" id="resultIcon">★</div>
+        <h2 id="resultTitle">أحسنت!</h2>
+        <p class="result-summary" id="resultSummary">—</p>
+        <div class="big-score"><span id="finalScore">0</span><span class="big-sep">/</span><span id="finalTotal">0</span></div>
+        <div class="result-stats">
+          <div class="stat"><div class="stat-num" id="statCorrect">0</div><div class="stat-label">إجابة صحيحة</div></div>
+          <div class="stat"><div class="stat-num" id="statWrong">0</div><div class="stat-label">إجابة خاطئة</div></div>
+          <div class="stat"><div class="stat-num" id="statSkipped">0</div><div class="stat-label">تم تخطيها</div></div>
+          <div class="stat"><div class="stat-num" id="statPercent">٠٪</div><div class="stat-label">النسبة المئوية</div></div>
+        </div>
+        <div class="result-actions">
+          <button class="btn-primary" id="reviewBtn">مراجعة الإجابات</button>
+          <button class="btn-ghost" id="retryBtn">إعادة المحاولة</button>
+          <button class="btn-ghost" id="homeBtn">العودة للرئيسية</button>
+        </div>
+      </div>
+      <section class="review-list hidden" id="reviewList"></section>
+    </section>
+
+    <!-- شاشة الإحصائيات -->
+    <section class="screen stats-screen hidden" id="statsScreen">
+      <h2>سجل أدائك</h2>
+      <p class="muted">يُخزَّن السجل في متصفحك فقط.</p>
+      <div class="stats-overview" id="statsOverview"></div>
+      <h3>آخر المحاولات</h3>
+      <div class="history" id="historyList"></div>
+      <button class="btn-ghost" id="clearHistoryBtn">مسح السجل</button>
+    </section>
+
+    <!-- شاشة البحث في الكتاب -->
+    <section class="screen search-screen hidden" id="searchScreen">
+      <h2>ابحث في الكتاب المرجع</h2>
+      <p class="muted">يبحث في النص المستخرَج آلياً من المجلدات العشرة (<span id="searchTotalPages">—</span> صفحة). أدخل كلمة أو عبارة وستظهر الصفحات التي تحويها مع تظليل الكلمات المطابقة.</p>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" class="search-input" placeholder="مثال: حطين، عبد الرحمن الداخل، سايكس-بيكو، الأزهر..." autocomplete="off" />
+        <button class="btn-primary" id="searchBtn">بحث</button>
+      </div>
+
+      <div class="search-filters">
+        <label class="setting-label" style="margin-bottom:0.4rem">حصر البحث في مجلد:</label>
+        <div class="vol-filters" id="volFilters"></div>
+      </div>
+
+      <div class="search-summary" id="searchSummary"></div>
+      <div class="search-results" id="searchResults"></div>
+    </section>
+
+    <!-- شاشة عن المسابقة -->
+    <section class="screen about-screen hidden" id="aboutScreen">
+      <h2>عن المسابقة</h2>
+      <p>
+        هذه المسابقة مستوحاة من <strong>«الكتاب المرجع في تاريخ الأمة العربية»</strong>،
+        وتغطي أبرز محطات تاريخ الأمة العربية منذ ما قبل الإسلام مروراً بالخلافة الراشدة
+        والدول الأموية والعباسية والأندلسية والفاطمية والأيوبية والمملوكية، وصولاً إلى
+        العصر العثماني والنهضة العربية الحديثة.
+      </p>
+      <h3>كيف تعمل المسابقة؟</h3>
+      <ul>
+        <li>اختر فئة من الفئات السبع، أو شغّل المسابقة الشاملة.</li>
+        <li>اضبط عدد الأسئلة والمؤقت من شاشة الإعدادات.</li>
+        <li>كل سؤال يحتوي على أربعة خيارات وإجابة واحدة صحيحة.</li>
+        <li>يظهر شرح موجز بعد كل إجابة (يمكن تأجيله للنهاية).</li>
+        <li>يُحفظ سجلّ المحاولات محلياً في المتصفح.</li>
+      </ul>
+      <h3>المصدر</h3>
+      <p>
+        تمّ استخراج نص الكتاب آلياً عبر تحويل الـ PDF إلى صور بدقة ٢٠٠ نقطة/إنش
+        (<code>pdftoppm</code>) ثم تشغيل محرك Tesseract OCR مع نموذج اللغة العربية
+        (<code>ara.traineddata</code>) على عشرة مجلدات بالتوازي. النصوص الناتجة محفوظة في
+        مجلد <code>ocr_output/</code>.
+      </p>
+      <p>
+        ٣٤ سؤالاً من المسابقة مأخوذة حرفياً من نصّ الكتاب وتُعرض مع شارة
+        <span class="src-tag">من الكتاب · مجX صY</span>
+        تشير إلى رقم المجلد والصفحة. باقي الأسئلة مبنية على المعرفة التاريخية العامة
+        لتغطية الفترات التي لم يصل إليها نطاق الاستخراج (الصفحات ٥٠-٢٠٠ من كل مجلد).
+      </p>
+    </section>
+  </main>
+
+  <!-- نافذة قراءة الصفحة -->
+  <div class="page-overlay hidden" id="pageOverlay">
+    <div class="page-modal" role="dialog" aria-labelledby="pageTitle">
+      <header class="page-modal-header">
+        <div class="page-modal-meta">
+          <span class="result-vol" id="pageVol">—</span>
+          <span class="result-title" id="pageTitle">—</span>
+          <span class="result-page" id="pagePage">—</span>
+        </div>
+        <button class="page-close" id="pageClose" aria-label="إغلاق">✕</button>
+      </header>
+      <div class="page-modal-body" id="pageBody">—</div>
+      <footer class="page-modal-nav">
+        <button class="btn-ghost" id="pagePrev">← الصفحة السابقة</button>
+        <span class="page-counter" id="pageCounter">—</span>
+        <button class="btn-ghost" id="pageNext">الصفحة التالية →</button>
+      </footer>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <span>© مسابقة تاريخ الأمة العربية</span>
+    <span class="dot">·</span>
+    <span>مبنية بـ HTML/CSS/JS — تعمل دون اتصال بالإنترنت</span>
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
