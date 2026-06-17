@@ -678,6 +678,35 @@ main {
 
 .quiz-controls { display: flex; justify-content: space-between; gap: 1rem; }
 
+/* PhD-level deep-dive academic link */
+.deep-dive {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed var(--line);
+}
+.deep-dive-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.12));
+  border: 1px solid var(--line-strong);
+  color: var(--accent-soft);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.deep-dive-link:hover {
+  background: var(--accent-grad);
+  color: var(--on-accent);
+  border-color: transparent;
+  box-shadow: var(--glow);
+  transform: translateY(-1px);
+}
+
 /* Result */
 .result-screen { text-align: center; }
 .result-card {
