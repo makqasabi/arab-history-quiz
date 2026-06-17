@@ -31,45 +31,40 @@
   const DIFF_LABELS = {1:'سهل جداً', 2:'سهل', 3:'متوسط', 4:'صعب', 5:'صعب جداً'};
 
   /* ---------------- PhD-level "Deep Dive" academic link ----------------
-     Builds a one-click link that opens an AI assistant pre-loaded with a
-     rigorous 10-section Epistemologist prompt, auto-targeted at the concept
-     behind a quiz item. Claude.ai is the default target because the prompt
-     requires the answer to be returned as a runnable React artifact (a
-     bilingual RTL table) — which Claude renders live. To use a different
-     assistant, change DEEP_DIVE_BASE (e.g. 'https://chatgpt.com/?q='). */
-  const DEEP_DIVE_BASE = 'https://claude.ai/new?q=';
-
-  function deepDivePrompt(question, answer) {
-    return `You are an advanced Epistemologist, Linguist, and Encyclopedic AI Scholar. Explain the concept below with rigorous PhD-comprehensive-exam depth and breadth, integrating modern conceptual analysis with classical scholarly frameworks across civilizations. Do NOT give a generic answer; analyze using the EXACT 10-section template below, skipping none, in an academic, precise, profound tone.
-
-CITATION RULE: Cite every factual claim, definition, date, or attributed idea inline in author-date form, e.g. (Drucker, 1954) or (Al-Ghazali, 11th c.). Use only peer-reviewed journals, major academic publishers, canonical primary texts, or authoritative encyclopedias (Stanford Encyclopedia of Philosophy, Encyclopaedia Britannica, Oxford Reference). Never cite blogs or Wikipedia.
-
-THE 10 SECTIONS:
-1. Nomenclature, Etymology & Translation - linguistic roots, literal meaning, the most philosophically and linguistically precise Arabic rendering (and why), and historical names among early and modern scholars.
-2. Definition, Showcase & Disambiguation - clear showcase, the strict academic boundary (al-hadd / الحد), and explicit contrast with 2-3 adjacent concepts.
-3. Subject Matter - the exact material, phenomenon, or scope it studies.
-4. Founder & History - who coined or formalized it, with a concise dated timeline of cited figures.
-5. Taxonomy & Relations - its category & subcategory, and its standing/proportion (نسبته) among the sciences.
-6. Sources & Derivation - the epistemic roots, texts, and methods from which it draws its axioms.
-7. Core Issues & Branches - its fundamental questions, theories, and branches in logical order.
-8. The Fruit & Merit - its practical/theoretical benefit (al-thamara / الثمرة) and intrinsic rank (al-fadl / الفضل).
-9. The Legal & Ethical Ruling - the Islamic ruling on studying it, the threshold fulfilling the communal duty (fard kifaya), and prioritisation grounded ONLY in Quranic paradigms, Maqasid, and explicit text (avoid secondary sources).
-10. Landmark References - the key classical and modern works (author, title, year, one-line note on why each is landmark).
-
-OUTPUT FORMAT - output ONLY a single runnable React JSX artifact (a default-export component); no prose outside it. It renders a bilingual two-column <table>: left column English (text-align left), right column Arabic (dir rtl, text-align right); one <tr> per section; each cell shows the bold section title then its bullets. Every top-level bullet must be its OWN <div style={{marginTop:"10px"}}> - never merge two bullets. Any numbered sub-item ((1)...(2)...(3)) goes on its OWN line: <div style={{marginTop:"6px", paddingLeft:"12px"}}> (use paddingRight for the Arabic cell). Style: fontFamily Georgia serif; header cells background #f0ede8; rows alternate #fff and #fafaf8; cells vertical-align top, padding 14px, line-height 1.8, fontSize 14px, width 50%.
-
-TASK: First identify the single principal concept, term, person, or event that the following quiz item is fundamentally about, then explain THAT concept with the template above.
-Quiz question: «${question}»
-Correct answer: «${answer}»`;
+     Resolves a quiz item to a pre-generated scholarly concept page that is
+     stored IN THE SITE (concepts.js + concept.html). The 10-section analysis
+     is authored ahead of time, so the link opens an in-site page — no
+     redirect to any external assistant. The link only appears when a stored
+     entry exists for the concept (matched by alias against question+answer). */
+  function normAr(s) {
+    return (s || '')
+      .replace(/[ً-ْٰـ]/g, '') // tashkeel + tatweel
+      .replace(/[إأآا]/g, 'ا')
+      .replace(/ى/g, 'ي')
+      .replace(/ؤ/g, 'و')
+      .replace(/ئ/g, 'ي')
+      .replace(/ة/g, 'ه')
+      .replace(/\s+/g, ' ')
+      .trim();
   }
 
-  function deepDiveURL(question, answer) {
-    return DEEP_DIVE_BASE + encodeURIComponent(deepDivePrompt(question, answer));
+  function conceptSlugFor(question, answer) {
+    const C = window.CONCEPTS || {};
+    const hay = normAr(answer) + ' | ' + normAr(question);
+    for (const slug in C) {
+      const aliases = C[slug].aliases || [C[slug].title_ar];
+      for (const al of aliases) {
+        if (al && hay.includes(normAr(al))) return slug;
+      }
+    }
+    return null;
   }
 
   function deepDiveLinkHTML(question, answer) {
-    const url = deepDiveURL(question, answer);
-    return `<a class="deep-dive-link" href="${url}" target="_blank" rel="noopener noreferrer" title="شرح أكاديمي شامل بعمق امتحان الدكتوراه عبر Claude (يفتح في تبويب جديد)">🎓 تعمّق أكاديمي · مستوى الدكتوراه ↗</a>`;
+    const slug = conceptSlugFor(question, answer);
+    if (!slug) return '';
+    const title = (window.CONCEPTS[slug].title_ar) || 'تحليل أكاديمي';
+    return `<a class="deep-dive-link" href="concept.html?c=${encodeURIComponent(slug)}" target="_blank" rel="noopener" title="تحليل أكاديمي شامل (١٠ أقسام) محفوظ داخل الموقع">🎓 تعمّق أكاديمي · ${title} ↗</a>`;
   }
 
   /* ---------------- Arabic-Indic numerals helper ---------------- */
@@ -395,7 +390,11 @@ Correct answer: «${answer}»`;
         meta.innerHTML = dateChip + srcChip;
       }
       const dd = $('deepDive');
-      if (dd) dd.innerHTML = deepDiveLinkHTML(q.q, q.o[q.a]);
+      if (dd) {
+        const h = deepDiveLinkHTML(q.q, q.o[q.a]);
+        dd.innerHTML = h;
+        dd.style.display = h ? '' : 'none';
+      }
       // Wrong-option explanations
       const wrongsBox = $('wrongsBox');
       if (wrongsBox) {
@@ -535,6 +534,7 @@ Correct answer: «${answer}»`;
         }
         wrongsHtml += '</ul>';
       }
+      const ddLink = deepDiveLinkHTML(a.question, a.options[a.correct]);
       item.innerHTML = `
         <div class="review-q">
           <span class="diff-badge d${d}">${DIFF_LABELS[d]}</span>
@@ -545,7 +545,7 @@ Correct answer: «${answer}»`;
         ${!a.isCorrect ? `<div class="review-a">الصحيح: <strong class="green">${a.options[a.correct]}</strong></div>` : ''}
         ${a.explanation ? `<div class="review-exp">${a.explanation}</div>` : ''}
         ${wrongsHtml}
-        <div class="deep-dive">${deepDiveLinkHTML(a.question, a.options[a.correct])}</div>
+        ${ddLink ? `<div class="deep-dive">${ddLink}</div>` : ''}
       `;
       wrap.appendChild(item);
     });

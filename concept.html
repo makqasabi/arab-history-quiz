@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تعمّق أكاديمي — مسابقة تاريخ الأمة العربية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --bg-1:#0a0f20; --bg-2:#0e1430; --bg-3:#131b3c;
+      --accent:#6366f1; --accent-soft:#a5b4fc; --accent-cyan:#22d3ee;
+      --accent-grad:linear-gradient(135deg,#6366f1 0%,#8b5cf6 100%);
+      --cream:#e9edfb; --sand:#f3f6ff; --muted:#8b93b8;
+      --line:rgba(255,255,255,.09); --line-strong:rgba(165,180,252,.45);
+      --glass:rgba(255,255,255,.045);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Cairo','Segoe UI',sans-serif;
+      background:linear-gradient(150deg,var(--bg-1),var(--bg-2) 55%,var(--bg-3));
+      background-attachment:fixed; color:var(--cream); min-height:100vh; line-height:1.85;
+    }
+    .topbar{
+      position:sticky; top:0; z-index:5;
+      display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;
+      padding:1rem 2rem; border-bottom:1px solid var(--line);
+      background:rgba(10,15,32,.72); backdrop-filter:blur(16px) saturate(140%);
+    }
+    .back-link{
+      display:inline-flex; align-items:center; gap:.45rem; text-decoration:none;
+      background:var(--glass); border:1px solid var(--line-strong); color:var(--accent-soft);
+      font-weight:700; font-size:.9rem; padding:.5rem 1.1rem; border-radius:999px; transition:all .2s;
+    }
+    .back-link:hover{background:var(--accent-grad); color:#fff; border-color:transparent}
+    .brand{color:var(--muted); font-size:.85rem}
+    .wrap{max-width:1100px; margin:0 auto; padding:2.2rem 1.3rem 4rem}
+    .hero{ text-align:center; margin-bottom:2rem }
+    .hero .badge{
+      display:inline-block; background:var(--accent-grad); color:#fff; font-weight:700;
+      font-size:.8rem; padding:.25rem .9rem; border-radius:999px; margin-bottom:.8rem;
+    }
+    .hero h1{
+      font-family:'Amiri',serif; font-size:2.5rem; line-height:1.25; margin-bottom:.4rem;
+      background:linear-gradient(120deg,#fff,var(--accent-soft) 60%,var(--accent-cyan));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .hero .sub-en{ font-size:1.05rem; color:var(--sand); direction:ltr; margin-bottom:.2rem }
+    .hero .tagline{ color:var(--muted); font-size:.95rem }
+    table{ width:100%; border-collapse:collapse; background:var(--glass);
+      border:1px solid var(--line); border-radius:18px; overflow:hidden }
+    thead th{ padding:.85rem 1.2rem; background:rgba(99,102,241,.16);
+      font-size:1rem; color:var(--sand); font-weight:800 }
+    thead th.en{ text-align:left } thead th.ar{ text-align:right }
+    tbody tr{ border-top:1px solid var(--line) }
+    tbody tr:nth-child(even){ background:rgba(255,255,255,.02) }
+    td{ vertical-align:top; padding:1.1rem 1.3rem; width:50%; font-size:.96rem }
+    td.en{ text-align:left; direction:ltr; border-left:1px solid var(--line) }
+    td.ar{ text-align:right; direction:rtl }
+    .sec-title{ font-weight:800; color:var(--accent-soft); margin-bottom:.7rem; font-size:1.02rem }
+    .bullet{ margin-top:10px }
+    .bullet:first-of-type{ margin-top:0 }
+    .bullet b{ color:var(--sand) }
+    .subitem{ margin-top:6px; padding-inline-start:14px; color:var(--cream) }
+    td.en .subitem{ padding-left:14px } td.ar .subitem{ padding-right:14px }
+    i{ color:var(--accent-cyan); font-style:italic }
+    .notfound{ text-align:center; padding:4rem 1rem; color:var(--muted) }
+    .notfound a{ color:var(--accent-soft) }
+    .footer{ text-align:center; color:var(--muted); font-size:.82rem; margin-top:2.5rem; padding-top:1.2rem; border-top:1px solid var(--line) }
+    @media(max-width:760px){
+      table,thead,tbody,tr,td{ display:block; width:100% }
+      thead{ display:none }
+      td.en{ border-left:none; border-bottom:1px dashed var(--line) }
+      tbody tr{ padding:.4rem 0 }
+      .hero h1{ font-size:1.9rem }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="back-link" href="index.html">→ رجوع إلى المسابقة</a>
+    <span class="brand">تعمّق أكاديمي · تحليل من ١٠ أقسام</span>
+  </div>
+  <div class="wrap" id="wrap"></div>
+
+  <script src="concepts.js"></script>
+  <script>
+    (function(){
+      var params = new URLSearchParams(location.search);
+      var slug = params.get('c');
+      var data = (window.CONCEPTS || {})[slug];
+      var wrap = document.getElementById('wrap');
+
+      if (!data) {
+        wrap.innerHTML = '<div class="notfound"><h2>لا يوجد تحليل محفوظ لهذا المفهوم بعد.</h2>' +
+          '<p>قد يكون قيد الإعداد. <a href="index.html">العودة إلى المسابقة</a></p></div>';
+        document.title = 'غير موجود — تعمّق أكاديمي';
+        return;
+      }
+
+      document.title = data.title_ar + ' — تعمّق أكاديمي';
+
+      function renderCol(arr){
+        var html = '';
+        arr.forEach(function(bk){
+          html += '<div class="bullet">' +
+            (bk.b ? '<b>• ' + bk.b + ':</b> ' : '• ') + (bk.t || '');
+          if (bk.items && bk.items.length){
+            bk.items.forEach(function(it){ html += '<div class="subitem">' + it + '</div>'; });
+          }
+          html += '</div>';
+        });
+        return html;
+      }
+
+      var rows = data.sections.map(function(s){
+        return '<tr>' +
+          '<td class="en"><div class="sec-title">' + s.title_en + '</div>' + renderCol(s.en) + '</td>' +
+          '<td class="ar"><div class="sec-title">' + s.title_ar + '</div>' + renderCol(s.ar) + '</td>' +
+          '</tr>';
+      }).join('');
+
+      wrap.innerHTML =
+        '<div class="hero">' +
+          '<span class="badge">🎓 تحليل أكاديمي شامل</span>' +
+          '<h1>' + data.title_ar + '</h1>' +
+          '<div class="sub-en">' + data.title_en + '</div>' +
+          (data.tagline_ar ? '<div class="tagline">' + data.tagline_ar + '</div>' : '') +
+        '</div>' +
+        '<table><thead><tr><th class="en">English</th><th class="ar">العربية</th></tr></thead>' +
+        '<tbody>' + rows + '</tbody></table>' +
+        '<div class="footer">المحتوى مُعدٌّ مسبقاً وفق قالب التحليل المعرفي العشاري · مع توثيق أكاديمي.</div>';
+    })();
+  </script>
+</body>
+</html>
